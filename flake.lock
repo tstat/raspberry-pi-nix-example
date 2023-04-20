@@ -52,6 +52,7 @@
       },
       "original": {
         "owner": "tstat",
+        "ref": "v0.1.0",
         "repo": "raspberry-pi-nix",
         "type": "github"
       }

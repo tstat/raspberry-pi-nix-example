@@ -2,7 +2,7 @@
   description = "raspberry-pi-nix example";
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-22.11";
-    raspberry-pi-nix.url = "github:tstat/raspberry-pi-nix";
+    raspberry-pi-nix.url = "github:tstat/raspberry-pi-nix/v0.1.0";
   };
 
   outputs = { self, nixpkgs, raspberry-pi-nix }:
