@@ -43,16 +43,16 @@
         "u-boot-src": "u-boot-src"
       },
       "locked": {
-        "lastModified": 1678801763,
-        "narHash": "sha256-yELOVlxvXouMpoosFQlnk8bFzs48pBl5goiUh8d2tnU=",
+        "lastModified": 1684978100,
+        "narHash": "sha256-FkI9PbPyWJnFuIPPeiObqjJlXzC80QN2jm7u878nNaQ=",
         "owner": "tstat",
         "repo": "raspberry-pi-nix",
-        "rev": "3ca8c6898ae3bc4d5527a75d9f499018afeb65dc",
+        "rev": "4d207117b71a638e22861a9cd8ff3f9c3b47fa18",
         "type": "github"
       },
       "original": {
         "owner": "tstat",
-        "ref": "v0.1.0",
+        "ref": "v0.2.0",
         "repo": "raspberry-pi-nix",
         "type": "github"
       }
