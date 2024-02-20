@@ -7,8 +7,8 @@
     ];
   };
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-22.11";
-    raspberry-pi-nix.url = "github:tstat/raspberry-pi-nix/v0.2.0";
+    nixpkgs.url = "github:NixOS/nixpkgs/8bf65f17d8070a0a490daf5f1c784b87ee73982c";
+    raspberry-pi-nix.url = "github:tstat/raspberry-pi-nix";
   };
 
   outputs = { self, nixpkgs, raspberry-pi-nix }:
@@ -42,7 +42,8 @@
         };
       };
 
-    in {
+    in
+    {
       nixosConfigurations = {
         rpi-example = nixosSystem {
           system = "aarch64-linux";
