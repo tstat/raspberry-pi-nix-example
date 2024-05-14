@@ -7,7 +7,7 @@
     ];
   };
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/8bf65f17d8070a0a490daf5f1c784b87ee73982c";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.11";
     raspberry-pi-nix.url = "github:tstat/raspberry-pi-nix";
   };
 
